@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background: #cdcdcd;
+}
+
+input {
+    outline: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.w {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* --------------------------- 头部 --------------------------- */
+header {
+    height: 50px;
+    background: #333;
+    background: rgba(47, 47, 47, 0.98);
+}
+
+label {
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    color: #DDD;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header input {
+    float: right;
+    width: 60%;
+    height: 24px;
+    margin-top: 12px;
+    text-indent: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.24), 0 1px 6px rgba(0, 0, 0, 0.45) inset;
+    border: none
+}
+
+/* --------------------------- 正在进行/已经完成 --------------------------- */
+li {
+    height: 32px;
+    line-height: 32px;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0 45px;
+    border-radius: 3px;
+    border-left: 5px solid #629A9C;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+
+
+h2 {
+    position: relative;
+}
+
+.doing-num,
+.done-num {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background: #e6e6fa;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.ok {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.txt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+    width: 65%;
+    height: 20px;
+    border: 0;
+    line-height: 20px;
+    text-indent: 5px;
+    font-size: 14px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.time {
+    position: absolute;
+    right: 40px;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url(../fonts/iconfont.ttf);
+}
+
+.del {
+    position: absolute;
+    right: 10px;
+    font-family: 'iconfont';
+    font-size: 20px;
+    color: #999;
+}
+
+.del:hover {
+    color: red;
+}
+
+.done {
+    opacity: 0.5;
+}
+
+.current {
+    border: 1px solid #000;
+}
+
+/* --------------------------- 版权 --------------------------- */
+footer {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer a {
+    color: #666;
+    text-decoration: none;
+    color: #999;
+}
